@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    width: 100%;
+}
+.brand{
+    width: 100px;
+}
+
+.greeting{
+    font-size: 4rem;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 1.2rem;
+}
+.greeting h1{
+    background:linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+}
